@@ -1,0 +1,14 @@
+{
+  "name": "menelaos-cv-generator",
+  "version": "1.0.0",
+  "description": "Markdown to PDF generator for Name Lastname CV",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx md-to-pdf resume.md --stylesheet style.css && npx shx cp resume.pdf docs/resume.pdf",
+    "watch": "npx md-to-pdf resume.md --watch --stylesheet style.css"
+  },
+  "devDependencies": {
+    "md-to-pdf": "^5.2.4",
+    "shx": "0.4.0"
+  }
+}

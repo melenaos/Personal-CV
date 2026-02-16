@@ -1,0 +1,78 @@
+/* style.css */
+@page {
+  margin: 20mm;
+  size: A4;
+}
+
+body {
+  font-family: 'Avenir', 'Segoe UI', sans-serif;
+  font-size: 11pt;
+  line-height: 1.6;
+  color: #432e2a; /* Deep Espresso Brown */
+  background-color: #fffdfa; /* Very subtle cream tint */
+}
+
+h1 {
+  font-size: 36pt;
+  font-weight: 300; /* Thin and elegant */
+  color: #a64d33; /* Terracotta Red/Orange */
+  margin: 0 0 10pt;
+  letter-spacing: -2px;
+}
+
+h2 {
+  font-size: 10pt;
+  color: #a64d33;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 30pt 0 15pt;
+  padding: 0 0 5pt;
+  border-bottom: 1px solid #d9c5b2; /* Sand-colored divider */
+  text-align: center; /* Centered headers for an editorial feel */
+}
+
+h3 {
+  font-size: 13pt;
+  font-weight: 700;
+  color: #432e2a;
+  margin: 15pt 0 2pt;
+}
+
+/* Metadata (Dates/Locations) */
+em {
+  display: block;
+  font-style: italic;
+  font-weight: 400;
+  color: #8c7a73;
+  font-size: 10pt;
+  margin-bottom: 8pt;
+}
+
+p, ul {
+  margin: 0 0 12pt;
+}
+
+li {
+  margin-bottom: 8pt;
+  list-style: none;
+}
+
+/* Custom "Dot" Bullet */
+li::before {
+  content: "•";
+  color: #a64d33;
+  font-weight: bold;
+  display: inline-block;
+  width: 1.5em;
+  margin-left: -1.5em;
+}
+
+/* A specialized "Intro" paragraph style */
+.intro {
+  font-size: 12pt;
+  color: #6e5a56;
+  font-style: italic;
+  border-left: 2px solid #a64d33;
+  padding-left: 15pt;
+  margin: 20pt 0;
+}

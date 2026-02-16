@@ -1,0 +1,66 @@
+/* style.css */
+@page {
+  margin: 18mm;
+  size: A4;
+}
+
+body {
+  font-family: 'Georgia', serif; /* Serif body text feels more authoritative */
+  font-size: 10.5pt;
+  line-height: 1.6;
+  color: #333d47; /* Deep Slate Gray */
+}
+
+h1 {
+  font-family: 'Segoe UI', sans-serif; /* Sans-serif headers for contrast */
+  font-size: 30pt;
+  font-weight: 300; /* Light weight for a high-end look */
+  color: #1a1a1a;
+  margin: 0 0 10pt;
+  letter-spacing: -1px;
+}
+
+h2 {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 11pt;
+  background-color: #f4f7f6; /* Very subtle mint-gray background */
+  color: #1b4d3e; /* Deep Emerald Green */
+  padding: 6pt 10pt;
+  margin: 20pt 0 10pt;
+  border-radius: 4px;
+  text-transform: uppercase;
+  display: block;
+}
+
+h3 {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 12pt;
+  color: #1a1a1a;
+  margin: 15pt 0 2pt;
+}
+
+/* Metadata (Dates/Locations) */
+em {
+  color: #1b4d3e; /* Matching Emerald */
+  font-style: italic;
+  font-weight: 500;
+  font-size: 9.5pt;
+  display: block;
+  margin-bottom: 4pt;
+}
+
+p, ul {
+  margin: 0 0 12pt;
+}
+
+li {
+  margin-bottom: 6pt;
+  list-style-type: circle; /* More elegant than a solid dot */
+}
+
+/* A subtle divider for the very bottom */
+footer {
+  border-top: 1px solid #e0e0e0;
+  margin-top: 30pt;
+  padding-top: 10pt;
+}

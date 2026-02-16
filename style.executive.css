@@ -1,0 +1,71 @@
+/* style.css */
+@page {
+  margin: 20mm; /* Standard academic/professional margin */
+  size: A4;
+}
+
+body {
+  font-family: 'system-ui', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-size: 11pt;
+  line-height: 1.5;
+  color: #222222; /* High contrast, but softer than pure black */
+  background: #ffffff;
+}
+
+h1 {
+  font-size: 22pt;
+  font-weight: 700;
+  color: #111111;
+  margin: 0 0 5pt 0;
+}
+
+/* Contact info line / Subheader */
+h1 + p {
+  font-size: 10pt;
+  color: #555555;
+  margin-bottom: 15pt;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 10pt;
+}
+
+h2 {
+  font-size: 12pt;
+  color: #003366; /* Classic Navy - the "safest" professional color */
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1.5pt solid #003366;
+  margin: 20pt 0 10pt 0;
+  padding-bottom: 2pt;
+}
+
+h3 {
+  font-size: 11pt;
+  font-weight: 700;
+  color: #222222;
+  margin: 12pt 0 2pt 0;
+}
+
+/* Metadata (Dates and Locations) */
+em {
+  font-style: normal;
+  font-weight: 500;
+  color: #666666;
+  font-size: 10pt;
+  display: block;
+  margin-bottom: 6pt;
+}
+
+p, ul {
+  margin: 0 0 10pt 0; /* Consistent vertical rhythm */
+}
+
+li {
+  margin-bottom: 4pt;
+  padding-left: 5pt;
+}
+
+/* Standard bullet style - safest for all PDF readers */
+ul {
+  padding-left: 1.2rem;
+}

@@ -1,0 +1,64 @@
+/* style.css */
+@page {
+  margin: 20mm; /* Slightly wider margins for a premium feel */
+  size: A4;
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', Helvetica, Arial, sans-serif;
+  font-size: 10.5pt; /* Slightly smaller font is often more elegant */
+  line-height: 1.6;   /* Extra breathing room between lines */
+  color: #2d2d2d;
+}
+
+h1 {
+  font-size: 28pt;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin: 0 0 15pt 0;
+  color: #000;
+}
+
+h2 {
+  font-size: 11pt;
+  color: #004a99;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 25pt 0 10pt 0;
+  padding: 0;
+  /* Instead of a full line, just a small accent under the title */
+  border-left: 4px solid #004a99; 
+  padding-left: 10pt;
+}
+
+h3 {
+  font-size: 12pt;
+  font-weight: 700;
+  margin: 15pt 0 2pt 0;
+  color: #1a1a1a;
+}
+
+/* Subtle meta-data (dates/location) */
+em {
+  display: block;
+  font-style: italic;
+  font-weight: 400;
+  color: #888;
+  margin-bottom: 6pt;
+  font-size: 10pt;
+}
+
+/* Cleaner Lists */
+ul {
+  margin: 5pt 0 12pt 15pt;
+  padding: 0;
+  list-style-type: square; /* Modern touch */
+}
+
+li {
+  margin-bottom: 6pt;
+}
+
+p {
+  margin: 0 0 12pt 0;
+}

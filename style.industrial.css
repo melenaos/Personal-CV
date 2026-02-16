@@ -1,0 +1,80 @@
+/* style.css */
+@page {
+  margin: 15mm;
+  size: A4;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 11pt;
+  line-height: 1.5;
+  color: #2b2b2b; /* Off-black for better screen/print contrast */
+  background: #fff;
+}
+
+h1 {
+  font-size: 32pt;
+  font-weight: 900;
+  color: #1a1a1a;
+  margin: 0 0 5pt 0;
+  text-transform: uppercase;
+}
+
+/* Accent sub-header (e.g., your job title or tagline) */
+h1 + p {
+  font-size: 14pt;
+  color: #d97706; /* Burnt Orange/Amber */
+  font-weight: 600;
+  margin-bottom: 20pt;
+}
+
+h2 {
+  font-size: 13pt;
+  color: #1a1a1a;
+  border-top: 3px solid #1a1a1a; /* Line moves to the top */
+  border-bottom: 1px solid #e5e5e5; /* Subtle bottom line */
+  padding: 4pt 0;
+  margin: 25pt 0 10pt 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+h3 {
+  font-size: 11pt;
+  font-weight: 800;
+  color: #d97706; /* Amber accent for sub-headers */
+  margin: 15pt 0 2pt 0;
+  text-transform: uppercase;
+}
+
+/* Metadata (Dates/Locations) */
+em {
+  display: block;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9pt;
+  color: #71717a;
+  margin-bottom: 8pt;
+  letter-spacing: 0.5px;
+}
+
+p, ul {
+  margin: 0 0 12pt 0;
+}
+
+li {
+  margin-bottom: 5pt;
+  list-style-type: none; /* Custom bullet look */
+  position: relative;
+  padding-left: 15pt;
+}
+
+/* Custom Orange Bullet */
+li::before {
+  content: "■"; 
+  color: #d97706;
+  position: absolute;
+  left: 0;
+  font-size: 8pt;
+  top: 1pt;
+}
