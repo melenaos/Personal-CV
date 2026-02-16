@@ -39,8 +39,10 @@ The project includes several pre-defined "flavors" of design. To switch styles, 
 
 **To apply a style:**
 
-`cp style.executive.css style.css`
-`npm run build`
+```
+cp style.executive.css style.css
+npm run build
+```
 
 Project Structure
 --------------------
@@ -105,11 +107,11 @@ You can host your PDF online so that recruiters can access it via a direct link 
 
 2. Update and Sync
 
-Whenever you make changes to your CV, run:
+    Whenever you make changes to your CV, run:
 
-`npm run build`
+    `npm run build`
 
-and commit to GitHub
+    and commit to GitHub
 
 Your live PDF link will update automatically within a few minutes.
 
