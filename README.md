@@ -2,13 +2,15 @@ Personal CV Template
 ====================
 
 A developer-centric CV builder that uses **Markdown** for content and **CSS** for styling. This project converts your professional history into a clean, print-ready PDF using md-to-pdf.
+[Live Demo](http://cv.menelaos.vergis.net)
 
 Quick Start
 --------------
+1. Click the green "Use this template" button above.
 
-1. Clone this project and download locally
+2. Edit resume.md with your details.
 
-2. `npm run build`
+3. `npm run build`
     
 
 How It Works
