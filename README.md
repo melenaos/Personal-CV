@@ -3,7 +3,6 @@ Personal CV Template
 
 A developer-centric CV builder that uses **Markdown** for content and **CSS** for styling. This project converts your professional history into a clean, print-ready PDF using md-to-pdf.
 
-[Live Demo](http://cv.vergis.net/)
 
 Quick Start
 --------------
